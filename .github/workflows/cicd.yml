@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: 16
 
-        - name: Download dependencies 
-          run: npm install
+      - name: Download dependencies 
+        run: npm install
 
-        - name: Run tests
-          run: npm run test 
+      - name: Run tests
+        run: npm run test 
